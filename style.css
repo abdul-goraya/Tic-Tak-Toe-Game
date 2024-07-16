@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(252, 163, 17);
+}
+.container {
+    height: 70vh;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+}
+.game {
+    margin-top: 40px;
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(251, 86, 7);
+    font-family: "Finger Paint", sans-serif ;
+    font-size: 50px;
+    color: rgb(61, 0, 102);
+    border: solid;
+    border-color:rgb(61, 0, 102);
+    border-radius: 10px;
+}
+h1{
+    font-family: "Finger Paint", sans-serif;
+    color: rgb(61, 0, 102);
+    font-size: 50px;
+}
+.heading{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.reset{
+    margin-left: 46.5%;
+    margin-top: 30px;
+}
+.btntxt{
+    background-color: black;
+    color: white;
+    font-family: "Finger Paint", sans-serif;
+    height: 30px;
+    align-items: center;
+    border: solid;
+    border-color:rgb(61, 0, 102);
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 46%;
+}
+.btntxt:hover{
+    cursor: pointer;
+    transition: .3s;
+    background-color: white;
+    color: rgb(61, 0, 102);
+}
